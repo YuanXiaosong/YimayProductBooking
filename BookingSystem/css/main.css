@@ -1,0 +1,56 @@
+/*
+ *@name: main style;
+ *@author: Xiaosong;
+ *@date: 2016.3.2;
+ */
+
+body{
+  background-color: #fafafa;
+}
+
+/*****index首页样式*****/
+.userHeader{
+  text-align: center;
+  margin: 10em 0 6em 0;
+}
+
+.cardIcon{
+  color: #DA2216;
+}
+
+.passIcon{
+  color: #15A7E3;
+}
+
+.checkIcon{
+  color: #7FBF23;
+}
+
+.userForm{
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 35em;
+  padding: 30px 1em 20px 1em;
+  border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  box-shadow: 0 0 7px #888888;
+  -o-box-shadow: 0 0 7px #888888;
+  -moz-box-shadow: 0 0 7px #888888;
+  -webkit-box-shadow: 0 0 7px #888888;
+}
+
+.userFooter{
+  text-align: center;
+  margin: 10em 0 0 0;
+}
+
+
+.navbar{
+  padding: 0 20px 0 10px;
+  box-shadow: 0 2px 6px #888888;
+  -o-box-shadow: 0 2px 6px #888888;
+  -moz-box-shadow: 0 2px 6px #888888;
+  -webkit-box-shadow: 0 2px 6px #888888;
+}

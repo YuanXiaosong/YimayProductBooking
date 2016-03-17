@@ -1,0 +1,112 @@
+<!--
+@name: newProduct
+@description: 产品管理页面
+@author: Xiaosong
+@date: 2016.3.16
+-->
+
+<!DOCTYPE html>
+<html lang="zh-cn,en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>产品管理|管理中心</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+<body>
+  <!--顶部导航-->
+  <nav class="navbar navbar-default navbar-static-top" role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+        <span class="sr-only">切换导航</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">怡美假日产品预订系统</a>
+    </div>
+    <div class="collapse navbar-collapse" id="example-navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">产品管理</a></li>
+        <li><a href="#">套餐管理</a></li>
+        <li><a href="#">持卡人管理</a></li>
+        <li class="navbar-text">XXX</li>
+        <li><a class="navbar-link" href="#">退出</a></li>
+      </ul>
+    </div>
+  </nav><br>
+  <!--/导航结束-->
+
+  <div class="container">
+    <div class="row">
+
+      <!--产品管理表头-->
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h1 class="panel-title">产品管理</h1>
+        </div>
+      </div>
+      <!--/表头结束-->
+
+      <!--操作按钮-->
+      <a class="btn btn-primary" href="addProduct.html" target="_blank">新增</a><br><br>
+      <!--/操作按钮结束-->
+
+      <!--产品列表-->
+      <table class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <th class="text-center">序号</th>
+            <th class="text-center">产品编号</th>
+            <th class="text-center">产品名称</th>
+            <th class="text-center">产品特色</th>
+            <th class="text-center">库存</th>
+            <th class="text-center">剩余库存</th>
+            <th class="text-center">附件</th>
+            <th class="text-center">操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-center">1</td>
+            <td class="text-center">YMBL12</td>
+            <td class="text-center">巴厘岛</td>
+            <td>三天两夜 水漾动人，轻梦无痕</td>
+            <td class="text-center">80</td>
+            <td class="text-center">30</td>
+            <td class="text-center"><a href="#">在线预览</a>&nbsp;&nbsp;<a href="#">下载</a></td>
+            <td class="text-center"><a href="orderList.html" target="_blank">订单列表</a>&nbsp;&nbsp;<a href="#">编辑</a>&nbsp;&nbsp;<a href="#">删除</a></td>
+          </tr>
+          <tr>
+            <td class="text-center">2</td>
+            <td class="text-center">YMSM12</td>
+            <td class="text-center">苏梅岛</td>
+            <td>三天两夜 水漾动人，轻梦无痕</td>
+            <td class="text-center">80</td>
+            <td class="text-center">40</td>
+            <td class="text-center"><a href="#">在线预览</a>&nbsp;&nbsp;<a href="#">下载</a></td>
+            <td class="text-center"><a href="#">订单列表</a>&nbsp;&nbsp;<a href="#">编辑</a>&nbsp;&nbsp;<a href="#">删除</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <!--/产品列表结束-->
+
+      <!--分页-->
+      <div class="col-sm-offset-10">
+        <ul class="pagination">
+          <li><a href="#">&laquo;</a></li>
+          <li class="active"><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">&raquo;</a></li>
+        </ul>
+      </div>
+      <!--/分页结束-->
+    </div>
+  </div>
+
+  <script src="js/jquery-2.2.1.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>
